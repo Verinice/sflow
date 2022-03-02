@@ -89,7 +89,7 @@ html .paper .container .input,
 body .paper .container .input {
   width: 100% !important;
   border: solid 1px #00a3ff;
-  padding: 6px;
+  padding: 8px;
   border-radius: 10px;
   line-height: 25px;
 }
