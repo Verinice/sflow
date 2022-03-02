@@ -362,15 +362,22 @@ export default function Home() {
               {footers.map((footer) => (
                 <Grid item xs={6} sm={3} key={footer.title}>
                   <Typography
-                    style={{ fontSize: "16px", fontWeight: 600 }}
+                    style={{
+                      fontSize: "16px",
+                      fontWeight: 600,
+                      display: "flex",
+                      gap: "0.2rem",
+                    }}
                     variant="h6"
                     color="text.primary"
                     gutterBottom
                   >
                     {footer.title == "EmuDao" ? (
-                      <img
-                        src="./emu.png"
-                        style={{ width: "1.5em", height: "1.5em" }}
+                      <Image
+                        src="/emu.png"
+                        width="25"
+                        height="25px"
+                        alt="logo"
                       />
                     ) : (
                       ""

@@ -7,7 +7,7 @@ import Typography from "@mui/material/Typography";
 const SwitchRoot = styled("span")`
   display: inline-block;
   position: relative;
-  width: 210px;
+  width: 232px;
   height: 48px;
 `;
 
