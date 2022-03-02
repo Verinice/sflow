@@ -44,7 +44,7 @@ body .app-bar .btn {
   background-color: #00a3ff;
   border: none;
   color: #fff;
-  font-size: 12px;
+  font-size: 13px;
   padding: 10px 30px;
   font-weight: 600;
   font-family: "Manrope", sans-serif;
@@ -114,6 +114,7 @@ body .paper .container .btn-lg {
   background-color: #00a3ff;
   color: #fff;
   border: none;
+  padding: 0.5rem;
 }
 html .paper .container .divider,
 body .paper .container .divider {

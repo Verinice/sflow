@@ -35,7 +35,7 @@ body {
       background-color: base.$blue;
       border: none;
       color: #fff;
-      font-size: 12px;
+      font-size: 13px;
       padding: 10px 30px;
       font-weight: 600;
       font-family: base.$manrope;
@@ -91,7 +91,8 @@ body {
       .btn-lg {
         background-color: base.$blue;
         color: #fff;
-        border: none;
+        border: none; 
+        padding: 0.5rem;
       }
       .divider {
         border-color: #e2e6eb;
