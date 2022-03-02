@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f4f6f8;
+}
+html .app-bar,
+body .app-bar {
+  box-shadow: none !important;
+}
+html .app-bar .topo,
+body .app-bar .topo {
+  font-size: 15px;
+  margin-top: 0.7rem;
+}
+html .app-bar .links,
+body .app-bar .links {
+  display: inline-flex;
+  gap: 1rem;
+}
+html .app-bar .links .link,
+body .app-bar .links .link {
+  font-size: 12px;
+  font-family: "Manrope", sans-serif;
+  line-height: 2.5;
+  display: flex;
+}
+html .app-bar .links .link svg,
+body .app-bar .links .link svg {
+  color: #00a3ff;
+  margin: auto;
+}
+html .app-bar .links .link span,
+body .app-bar .links .link span {
+  margin: auto !important;
+}
+html .app-bar .links .link.active,
+body .app-bar .links .link.active {
+  font-weight: 1000;
+}
+html .app-bar .btn,
+body .app-bar .btn {
+  background-color: #00a3ff;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  padding: 7px 25px;
+  font-weight: 600;
+  font-family: "Manrope", sans-serif;
+}
+html .app-bar .btn:hover,
+body .app-bar .btn:hover {
+  background-color: #00a2ffc5;
+}
+html .title,
+body .title {
+  font-family: "Manrope", sans-serif;
+  font-size: 26px;
+  font-weight: 800;
+}
+html .sub-title,
+body .sub-title {
+  font-size: 12px;
+  font-weight: 500;
+  color: #7a8aa0;
+}
+html .switch-content,
+body .switch-content {
+  padding: 0 !important;
+}
+html .paper,
+body .paper {
+  border: none;
+  border-radius: 20px;
+}
+html .paper .container,
+body .paper .container {
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+html .paper .container .label,
+body .paper .container .label {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+html .paper .container .input,
+body .paper .container .input {
+  width: 100% !important;
+  border: solid 1px #00a3ff;
+  padding: 6px;
+  border-radius: 10px;
+  line-height: 25px;
+}
+html .paper .container .input::before,
+body .paper .container .input::before {
+  border-bottom: none !important;
+}
+html .paper .container .input::after,
+body .paper .container .input::after {
+  border-bottom: none !important;
+}
+html .paper .container .adornment,
+body .paper .container .adornment {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  padding: 4px;
+  background-color: #e2e6eb;
+}
+html .paper .container .btn-lg,
+body .paper .container .btn-lg {
+  background-color: #00a3ff;
+  color: #fff;
+  border: none;
+}
+html .paper .container .divider,
+body .paper .container .divider {
+  border-color: #e2e6eb;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family: "Manrope", sans-serif;
+}
+
+footer a {
+  font-size: 14px;
+  color: #515559;
+  font-weight: 500;
+}
+footer footer {
+  border-top: 1px solid #c8d0d8 !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=globals.css.map */

@@ -1,0 +1,19 @@
+{
+  "name": "staking_manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stakingManger.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./manageStaking.js",
+    "main": "node ./manager.js",
+    "test": "node ./TestStakingPlatform.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@onflow/fcl": "^0.0.78",
+    "elliptic": "^6.5.4",
+    "sha3": "^2.1.4"
+  }
+}

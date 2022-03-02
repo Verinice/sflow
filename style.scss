@@ -1,0 +1,122 @@
+@use "base.scss";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: base.$bg-color;
+  .app-bar {
+    box-shadow: none !important;
+    .topo {
+      font-size: 15px;
+      margin-top: 0.7rem;
+    }
+    .links {
+      display: inline-flex;
+      gap: 1rem;
+      .link {
+        font-size: 12px;
+        font-family: base.$manrope;
+        line-height: 2.5;
+        display: flex;
+        svg {
+          color: base.$blue;
+          margin: auto;
+        }
+        span {
+          margin: auto !important;
+        }
+      }
+      .link.active {
+        font-weight: 1000;
+      }
+    }
+    .btn {
+      background-color: base.$blue;
+      border: none;
+      color: #fff;
+      font-size: 12px;
+      padding: 7px 25px;
+      font-weight: 600;
+      font-family: base.$manrope;
+    }
+    .btn:hover {
+      background-color: base.$blue-1;
+    }
+  }
+  .title {
+    font-family: base.$manrope;
+    font-size: 26px;
+    font-weight: 800;
+  }
+  .sub-title {
+    font-size: 12px;
+    font-weight: 500;
+    color: base.$gray;
+  }
+  .switch-content {
+    padding: 0 !important;
+  }
+  .paper {
+    border: none;
+    border-radius: 20px;
+    .container {
+      background-color: #ffffff;
+      border-radius: 20px;
+      .label {
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+      }
+      .input {
+        width: 100% !important;
+        border: solid 1px base.$blue;
+        padding: 6px;
+        border-radius: 10px;
+        line-height: 25px;
+      }
+      .input::before {
+        border-bottom: none !important;
+      }
+      .input::after {
+        border-bottom: none !important;
+      }
+      .adornment {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        padding: 4px;
+        background-color: #e2e6eb;
+      }
+      .btn-lg {
+        background-color: base.$blue;
+        color: #fff;
+        border: none;
+      }
+      .divider {
+        border-color: #e2e6eb;
+      }
+    }
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family: base.$manrope;
+}
+
+footer {
+  a {
+    font-size: 14px;
+    color: #515559;
+    font-weight: 500;
+  }
+  footer {
+    border-top: 1px solid #c8d0d8 !important;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
